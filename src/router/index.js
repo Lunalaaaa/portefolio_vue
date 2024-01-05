@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 // Composants
-import Projets from '@/components/Projets.vue';
-import Contact from '@/components/Contact.vue';
-import Competences from '@/components/Competences.vue';
+import Projets from '../components/Projets.vue';
+import Contact from '../components/Contact.vue';
+import Competences from '../components/Competences.vue';
 
 // Vues
-import HomePage from '@/views/HomePage.vue';
-import APropos from '@/views/APropos.vue';
-import PageNotFound from '@/views/NotFound.vue';
+import HomePage from '../views/HomePage.vue';
+import APropos from '../views/APropos.vue';
+import PageNotFound from '../views/NotFound.vue';
 
 const router = createRouter({
   history: createWebHistory(),

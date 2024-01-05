@@ -2,7 +2,7 @@
     <Historique />
 </template>
 <script>
-import Historique from '@/components/Historique.vue';
+import Historique from '../components/Historique.vue';
 
 export default {
     components: {
