@@ -4,7 +4,7 @@
             <div class="grid">
                 <div class="col-12 lg:col-6">
                     <div class="text-900 font-medium mb-4">On se contacte ?</div>
-                    <p class="text-700 line-height-3 pr-0 lg:pr-5">Si vous êtes arrivez là j'imagine que vous êtes intéressé par mon profil donc n'hésitez pas à me contacter. Je suis toujours à l'écoute d'offre.</p>
+                    <p class="text-700 line-height-3 pr-0 lg:pr-5">Si vous êtes arrivé là, j'imagine que vous êtes intéressé par mon profil donc n'hésitez pas à me contacter. Je suis toujours à l'écoute d'offres.</p>
                 </div>
                 <div class="col-12 md:col-6 lg:col-3">
                     <div class="flex align-items-start">
@@ -14,7 +14,7 @@
                             </span>
                         </div>
                         <div>
-                            <span class="text-xl text-900 mb-2 font-medium">Address</span>
+                            <span class="text-xl text-900 mb-2 font-medium">Adresse</span>
                             <p class="text-700 line-height-3">IUT Montpellier-Sète, 99 avenue d'Occitanie</p>
                         </div>
                     </div>

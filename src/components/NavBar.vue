@@ -43,9 +43,11 @@
             </ul>
             <ul class="list-none p-0 m-0 flex lg:align-items-center select-none flex-column lg:flex-row">
                 <li class="flex-order-2 lg:flex-order-0">
-                    <div class="flex px-6 p-3 lg:px-3 lg:py-2">
-                        <span class="text-2xl font-bold" style="background: linear-gradient(90deg, rgba(0, 209, 255, 1) 0%, rgba(255, 109, 232, 1) 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-fill-color: transparent;">KICIEN Tania</span>
-                    </div>
+                    <router-link class="no-underline" :to="{ name: 'home'}">
+                        <div class="flex px-6 p-3 lg:px-3 lg:py-2">
+                            <span class="text-2xl font-bold" style="background: linear-gradient(90deg, rgba(0, 209, 255, 1) 0%, rgba(255, 109, 232, 1) 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; -webkit-text-fill-color: transparent;">KICIEN Tania</span>
+                        </div>
+                    </router-link>
                 </li>
             </ul>
         </div>

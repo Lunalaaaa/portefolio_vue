@@ -14,11 +14,10 @@
             <Chip label="API" class="bg-cyan-500 text-white mr-2"/>
         </div>
         <div class="line-height-3 text-lg text-700 mb-4"> 
-            Durant mes périodes en entreprise j'ai pu être intégrée dans un groupe de formation au framework Symfony.
-            Cette formation m'a permi d'apprendre les bases et bonnes pratiques du framework Symfony.
-            Pendant cette formation j'ai pu découvrir les nombreuses possibilités offertes par ce framework. 
-            Le but de cette formation était de créer un site répertoriant des films. 
-            Nous avions aussi accès à l'API OMDb pour récupérer différentes informations des films.   
+            Durant mes périodes en entreprise, j'ai pu être intégrée dans un groupe de formation au framework Symfony. 
+            Cette formation m'a permis d'apprendre les bases et bonnes pratiques du framework Symfony. 
+            Pendant cette formation, j'ai pu découvrir les nombreuses possibilités offertes par ce framework. 
+            Le but de cette formation était de créer un site répertoriant des films. Nous avions aussi accès à l'API OMDb pour récupérer différentes informations des films. 
         </div>
         <div class="text-2xl text-900 mb-4">Qu'ai-je appris durant cette formation ?</div>
         <div class="line-height-3 text-lg text-700 mb-4"> 
@@ -33,16 +32,23 @@
             🌟 Les Services
         </div>
     </div>
-    <div class="card w-6 m-auto">
-        <Galleria :value="images" containerStyle="max-width: 640px" :showThumbnails="true" :changeItemOnIndicatorHover="true" :showIndicatorsOnItem="true">
+    <div class="m-auto text-center">
+        <p>Les sources de ce projet sont disponibles <a href="https://github.com/Lunalaaaa/formationSymfony" target="_blank">ici</a>.</p>
+    </div>
+    <div class="card w-9 m-auto">
+        <Galleria :value="images" :showThumbnails="true" :numVisible="4" :circular="true" :changeItemOnIndicatorHover="true" :showIndicatorsOnItem="true" :autoPlay="true" :transitionInterval="3000" :pt="{
+            thumbnailItemContent: () => ({
+                class: 'flex justify-content-center'
+            })
+        }">
             <template #item="slotProps">
                 <img :src="slotProps.item.src" style="width: 100%; display: block" />
             </template>
             <template #thumbnail="slotProps">
-                <img :src="slotProps.item.src" class="h-2"/>
+                <img :src="slotProps.item.src" style="width: 60%;"/>
             </template>
             <template #caption="slotProps">
-                <p>{{ slotProps.item.texte }}</p>
+                <p class="text-center font-bold">{{ slotProps.item.texte }}</p>
             </template>
         </Galleria>
     </div>
@@ -53,12 +59,20 @@ export default{
         return {
             images: [
                 {
-                    src: '../images/notFound.png',
-                    texte: 'Illustration'
+                    src: '../images/formation_symfony/login.png',
+                    texte: 'Formulaire de login du site'
                 },
                 {
-                    src: '../images/notFound.png',
-                    texte: 'Illustration2'
+                    src: '../images/formation_symfony/listeFilms.png',
+                    texte: 'Liste des films dans la base de données'
+                },
+                {
+                    src: '../images/formation_symfony/readFilm.png',
+                    texte: 'Présentation d\'un film en particulier'
+                },
+                {
+                    src: '../images/formation_symfony/createFilm.png',
+                    texte: 'Formulaire de création d\'un film'
                 },
             ]
         }

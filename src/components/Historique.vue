@@ -24,7 +24,7 @@
             <div class="pt-3 border-top-1 border-300">
                 <div class="line-height-3">
                     <span>
-                        Préparation du B.U.T. Informatique à l'IUT de Montpellier-Sète spéciaité IAMSI (Intégration d'Applications et Management du Système d'Information).
+                        Préparation du B.U.T. Informatique à l'IUT de Montpellier-Sète spécialité IAMSI (Intégration d'Applications et Management du Système d'Information).
                     </span>
                     <br>
                     <span class="font-bold text-indigo-400">
@@ -42,7 +42,7 @@
             <div class="pt-3 border-top-1 mb-5 border-300">
                 <div class="mb-2 line-height-3">
                     <span>
-                        Création d'un site en VueJs et Symfony a destination des clients de l'entreprise. 
+                        Création d'un site en VueJs et Symfony à destination des clients de l'entreprise. 
                     </span>
                 </div>
             </div>
@@ -77,7 +77,7 @@
         </div>
         <div class="py-3 pl-5 lg:pl-8 pl-3 lg:w-30rem">
             <div class="text-900 text-xl mb-2 font-medium">Et ensuite ? </div>
-            <span class="block text-700 line-height-3 mb-3">J'aimerai commencer ma carrière en tant que développeuse web.</span>
+            <span class="block text-700 line-height-3 mb-3">J'aimerais commencer ma carrière en tant que développeuse web.</span>
         </div>
     </div>
 </div>
