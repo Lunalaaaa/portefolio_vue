@@ -4,7 +4,7 @@
       <NavBar />
     </header>
     <div>
-      <a v-tooltip.left="'Pour télécharger mon CV 👉'" class="cv border-2 border-right-none border-round-left-xl shadow-3"><i class="pi pi-file text-2xl h-auto"></i></a>
+      <a v-tooltip.left="'Pour télécharger mon CV 👉'" class="cv border-2 border-right-none border-round-left-xl shadow-3" href="documents/KICIEN-Tania.pdf" download><i class="pi pi-file text-2xl h-auto"></i></a>
     </div>
     <div class="w-9 md:w-11 sm:w11 m-auto mt-3">
       <router-view />
