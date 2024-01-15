@@ -66,6 +66,9 @@
             Si l'aliment est supprimé avant cette date, la notification est supprimée. 
             Pour les 3 premiers aliments de la liste, une couleur de fond est attribuée selon sa date de péremption par rapport au jour actuel.    
         </div>
+        <div>
+            Plus d'informations par <a href="https://lauradronne130.wixsite.com/portfolio-laura/portfolio-collections/my-portfolio/repost-it" target="_blank">ici</a>.
+        </div>
     </div>
     <div class="card w-9 m-auto">
         <Galleria :value="images" :showThumbnails="true" :numVisible="4" :circular="true" :changeItemOnIndicatorHover="true" :showIndicatorsOnItem="true" :autoPlay="true" :transitionInterval="3000" :pt="{
